@@ -13,9 +13,9 @@ services:
     depends_on:
       - db
 
-db:      
-  image: mongo:latest
-  container_name: tasks-db
-  ports:
-    - "27017:27017"    
+  db:      
+    image: mongo:latest
+    container_name: tasks-db
+    ports:
+      - "27017:27017"    
   
